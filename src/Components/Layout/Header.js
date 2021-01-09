@@ -23,7 +23,7 @@ class Header extends Component{
         return (
             <div className={classes.root} >
             <header >
-                <AppBar position="fixed" color="secondary"  >
+                <AppBar position="fixed" color="primary"  >
                     <Toolbar>
                         <IconButton color="inherit" aria-label="Menu">
                             <ComputerIcon />
