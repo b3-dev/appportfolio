@@ -6,6 +6,8 @@ import Projects from '../../Data/projects.json';
 
 /*Components*/
 import ProjectItem from "../../Components/Projectitem/ProjectItem";
+import PortfolioItemDetails from "../../Components/Modals/PortfolioItemDetails";
+
 import { Paper } from '@material-ui/core';
 
 class Portfolio extends Component{
@@ -20,18 +22,19 @@ class Portfolio extends Component{
         const { classes } = this.props;
 
         return (
-            <Grid container className={classes.root} justify="left"  >
+            <Grid container className={classes.root} justify="left" >
                 {Projects['Projects'].map(project=>
                     <Grid item xs={12}  md={4} sm={6} className={classes.itemCenter} style={{padding:10}}  >
                      <ProjectItem 
                         alt={project.title}
                         image={`./images/projects/${project.folder}/${project.image_name}`}
-                        title={`${project.title}`}
+                        title={`${project.title}`} 
                         description={`${project.description}`}
                         />
                     </Grid>
                     )
                 }
+                <PortfolioItemDetails />
             </Grid>
           );
       }

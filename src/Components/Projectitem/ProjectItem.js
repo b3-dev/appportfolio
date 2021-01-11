@@ -20,7 +20,7 @@ class ProjectItem extends Component{
         const { classes } = this.props;
 
         return (
-            <Card className={classes.card} >
+            <Card className={classes.card} onClick={()=>{alert('modal')}} >
             <CardActionArea>
               <CardMedia
                 component="img"
