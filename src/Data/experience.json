@@ -1,0 +1,69 @@
+{
+    "Experience": [
+        {
+            "id": 1,
+            "title": "Benedetti's Pizza S.A de C.V",
+            "description": "Actualización de Tienda en línea",
+            "first_line_description": "Propuesta de actualización de plataforma de venta en línea de productos Benedetti's desarrollada en Laravel, Bootstrap, Jquery ",
+            "second_line_description": " ",
+            "folder": "experience",
+            "technical_details": "",
+            "image_name": "benedettis.png",
+            "start_date": "",
+            "end_date": ""
+            
+        }
+        ,
+        {
+            "id": 2,
+            "title": "Jumpingtime",
+            "description": "Benedetti's CRM",
+            "first_line_description": "Platforma tipo CRM desarrollada en Angular 7, Laravel, Angular Material",
+            "second_line_description": " ",
+            "folder": "experience",
+            "technical_details": "",
+            "image_name": "jumpingtime.png",
+            "start_date": "",
+            "end_date": ""
+        },
+        {
+            "id": 3,
+            "title": "CrossFitness Club ",
+            "description": "",
+            "first_line_description": "Propuesta de actualización de plataforma de venta en línea de productos Benedetti's desarrollada en Laravel, Bootstrap, Jquery ",
+            "second_line_description": " ",
+            "folder": "experience",
+            "technical_details": "",
+            "image_name": "crossfitness.png",
+            "start_date": "",
+            "end_date": ""
+            
+        },
+        {
+            "id": 4,
+            "title": "LEGARZA > GNP Seguros",
+            "description": "Benedetti's CASA Actualización",
+            "first_line_description": "Plataforma Benedetti's desarrollada con React Js, Material-UI, Ruby on Rails ",
+            "second_line_description": " ",
+            "folder": "experience",
+            "technical_details": "",
+            "image_name": "legarza.png",
+            "start_date": "",
+            "end_date": ""
+            
+        },
+        {
+            "id": 5,
+            "title": "GOBAE Consulting",
+            "description": "Benedetti's CRM",
+            "first_line_description": "Platforma tipo CRM desarrollada en Angular 7, Laravel, Angular Material",
+            "second_line_description": " ",
+            "folder": "experience",
+            "technical_details": "",
+            "image_name": "gobae.png",
+            "start_date": "",
+            "end_date": ""
+        }
+        
+    ]
+}

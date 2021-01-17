@@ -1,110 +1,324 @@
-{"Projects":[
-    {
-        "id":1,
-        "title":"Benedetti's Online 2021",
-        "description":"Actualización de Tienda en línea",
-        "folder":"online2021",
-        "technical_details":"",
-        "image_name":"online2021_1.png",
-        "start_date":"",
-        "end_date":"",
-        "thumbnail": [
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 1
-            },
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 2
-            },
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 3
-            }
-        ]
-
-    },
-    {
-        "id":2,
-        "title":"Benedetti's Online 2016",
-        "description":"",
-        "technical_details":"",
-        "image_name":"",
-        "thumbnail": [
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 1
-            },
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 2
-            },
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 3
-            }
-        ]
-
-    },
-    {
-        "id":3,
-        "title":"",
-        "description":"Actualización de Tienda en línea",
-        "technical_details":"",
-        "image_name":"",
-        "start_date":"",
-        "end_date":"",
-        "thumbnail": [
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 1
-            },
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 2
-            },
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 3
-            }
-        ]
-
-    },
-    {
-        "id":4,
-        "title":"",
-        "description":"Actualización de Tienda en línea",
-        "technical_details":"",
-        "image_name":"",
-        "start_date":"",
-        "end_date":"",
-        "thumbnail": [
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 1
-            },
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 2
-            },
-            {
-                "image_name": "",
-                "title": "",
-                "sort": 3
-            }
-        ]
-
-    }
-
-]}
+{
+    "Projects": [
+        {
+            "id": 1,
+            "title": "Benedetti's Online 2021",
+            "description": "Actualización de Tienda en línea",
+            "first_line_description": "Propuesta de actualización de plataforma de venta en línea de productos Benedetti's desarrollada en Laravel, Bootstrap, Jquery ",
+            "second_line_description": " ",
+            "folder": "online2021",
+            "technical_details": "",
+            "image_name": "online_2021_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "online_2021_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Benedetti's Online ",
+            "description": "Tienda en línea",
+            "first_line_description": "Propuesta de actualización de plataforma de venta en línea de productos Benedetti's desarrollada en Laravel, Bootstrap, Jquery ",
+            "second_line_description": " ",
+            "folder": "online2016",
+            "technical_details": "",
+            "image_name": "online_2016_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "online_2016_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Benedetti's CASA Actualización",
+            "description": "Benedetti's CASA Actualización",
+            "first_line_description": "Plataforma Benedetti's desarrollada con React Js, Material-UI, Ruby on Rails ",
+            "second_line_description": " ",
+            "folder": "casaReact",
+            "technical_details": "",
+            "image_name": "casa_react_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "casa_react_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Benedetti's CASA",
+            "description": "Benedetti's CASA",
+            "first_line_description": "Plataforma Benedetti's desarrollada en Laravel, Bootstrap, Jquery ",
+            "second_line_description": " ",
+            "folder": "casa2020",
+            "technical_details": "",
+            "image_name": "casa_2020_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "casa_2020_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Benedetti's Online CRM",
+            "description": "Benedetti's CRM",
+            "first_line_description": "Platforma tipo CRM desarrollada en Angular 7, Laravel, Angular Material",
+            "second_line_description": " ",
+            "folder": "onlineCRM",
+            "technical_details": "",
+            "image_name": "online_crm_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "online_crm_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "PDV Jumpingtime",
+            "description": "Jumpingtime Punto de venta y CMS",
+            "first_line_description": "Plataforma punto de venta hecha en CodeItniter, Boostrap, Jquery ",
+            "second_line_description": " ",
+            "folder": "jumpingtime",
+            "technical_details": "",
+            "image_name": "jumpingtime_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "jumpingtime_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        
+        {
+            "id": 6,
+            "title": "Crossfitness",
+            "description": "Crossfitness Punto de venta y CRM",
+            "first_line_description": "Plataforma punto de venta hecha en CodeItniter, Boostrap, Jquery ",
+            "second_line_description": " ",
+            "folder": "crossfitness",
+            "technical_details": "",
+            "image_name": "crossfitness_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "crossfitness_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Legarza>GNP",
+            "description": "Crossfitness Punto de venta y CRM",
+            "first_line_description": "Plataforma punto de venta hecha en CodeItniter, Boostrap, Jquery ",
+            "second_line_description": " ",
+            "folder": "legarza",
+            "technical_details": "",
+            "image_name": "legarza_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "legarza_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Benedetti's Facturación Electrónica",
+            "description": "Benedetti's Facturación Electrónica",
+            "first_line_description": "Platforma Web para generar facturas electrónicas de clientes Benedetti's  desarrollada en CodeIgniter, Bootstrap, Jquery",
+            "second_line_description": " ",
+            "folder": "facturacion",
+            "technical_details": "",
+            "image_name": "facturacion_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "facturacion_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Benedetti's Facturación Electrónica CRM",
+            "description": "Benedetti's Facturación Electrónica CRM",
+            "first_line_description": "Platforma tipo CRM desarrollada en CodeIgniter, Boostrap, Jquery",
+            "second_line_description": " ",
+            "folder": "facturacionCRM",
+            "technical_details": "",
+            "image_name": "facturacion_crm_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "facturacion_crm_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Archivos compartidos",
+            "description": "Benedetti's Facturación Electrónica CRM",
+            "first_line_description": "Platforma tipo CRM desarrollada en CodeIgniter, Boostrap, Jquery",
+            "second_line_description": " ",
+            "folder": "ufiles",
+            "technical_details": "",
+            "image_name": "ufiles_1.png",
+            "start_date": "",
+            "end_date": "",
+            "thumbnail": [
+                {
+                    "image_name": "ufiles_thumb_1.png",
+                    "title": "",
+                    "sort": 1
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 2
+                },
+                {
+                    "image_name": "",
+                    "title": "",
+                    "sort": 3
+                }
+            ]
+        }
+    ]
+}

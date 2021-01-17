@@ -20,23 +20,28 @@ class ProjectItem extends Component{
         const { classes } = this.props;
 
         return (
-            <Card className={classes.card} onClick={()=>{alert('modal')}} >
+            <Card className={classes.card}  >
             <CardActionArea>
               <CardMedia
                 component="img"
                 alt={this.props.alt}
                 image={this.props.image}
                 title={ this.props.title }
+
+                className={classes.media}
+                
                 
               />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                 {this.props.title}
-                </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                {this.props.description}
-                </Typography>
-              </CardContent>
+              {
+                  /*<CardContent className={classes.CardContent}>
+                    <Typography gutterBottom variant="h6" component="h2">
+                    {this.props.title}
+                    </Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                    {this.props.description}
+                    </Typography>
+            </CardContent>*/
+            }
             </CardActionArea>
             
           </Card>
@@ -53,8 +58,6 @@ const styles = {
         flexDirection: 'row',
         aligmentAjust: 'center',
         justifyContent: 'center',
-
-
     },
 
     content: {
@@ -68,11 +71,30 @@ const styles = {
     card: {
         width: 400,
         maxWidth: 400,
-    },
-    media: {
-        height: 140,
-    },
+        borderRadius: "2px",
 
+        /*border: "none",
+        boxShadow: "none",*/
+        backgroundColor:'transparent',
+        boxShadow: '0 0px 10px #CCC',
+        
+        
+        
+   },
+    media: {
+        transition:"all 0.6s ease",
+        
+         "&:hover": {       
+          filter: 'brightness(50%)',
+          transform:'scale(1.3)',
+          transition:"all 0.4s ease"
+        },
+        
+    },
+    CardContent:{
+     
+    
+    },
     CardActions:{
        display: 'flex',
        flexDirection: 'row',
