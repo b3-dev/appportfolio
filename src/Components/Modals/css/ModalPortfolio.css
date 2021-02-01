@@ -1,0 +1,183 @@
+.ModalPortfolio {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow:scroll;
+    
+    /*with:;
+    2vh,*/
+    border-radius: 20px;
+    -webkit-border-radius: '20px', ;
+    -moz-border-radius: '20px', ;
+    -ms-border-radius: '20px', ;
+    -o-border-radius: '20px', ;
+}
+
+.GridCloseIcon {
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+}
+
+.IconClose {
+    transform: rotate(0deg) scale(1);
+    transition: all 0.3s ease !important;
+    color: #61dafb !important;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+    -ms-transition: all 0.3s ease !important;
+    -o-transition: all 0.3s ease !important;
+    -webkit-transform: rotate(0deg) scale(1);
+    -moz-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    -o-transform: rotate(0deg) scale(1);
+}
+
+.IconClose:hover {
+    transform: rotate(180deg) scale(1.1);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transform: rotate(180deg) scale(1.1);
+    -moz-transform: rotate(180deg) scale(1.1);
+    -ms-transform: rotate(180deg) scale(1.1);
+    -o-transform: rotate(180deg) scale(1.1);
+}
+
+.ModalPortfolioTitle {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0vh;
+    letter-spacing: 1.1pt !important;
+}
+
+.ModalPortfolioDescription {
+   
+    color: #ced7db;
+    text-align: center !important;
+    font-size: 16px;
+    padding-bottom: 1vh;
+    letter-spacing: 1.1pt !important;
+}
+
+.PaperPortfolio {
+    background-color: #FFF;
+    border: 2px solid #546e7a;
+    box-shadow: 20px;
+    padding: 0vh;
+    margin-top: 0vh;
+    border-radius: 8px;
+    width: 90% !important;
+}
+
+.PaperPortfolioNightTheme {
+    background-color: #282c34 !important;
+    color: #FFF;
+    border: 3px solid #FFF;
+    box-shadow: 20px;
+    padding: 0vh;
+    margin-top: 0vh;
+    border-radius: 8px;
+    width: 90% !important;
+
+}
+
+.ModalPortfolioButton {
+    /*padding-top, padding-right, padding-bottom, padding-left*/
+    padding: 8px 12px 8px 12px !important;
+    background-color: #01579b !important;
+    color: #FFF !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+}
+
+.ModalPortfolioButton:hover {
+    background-color: #61dafb !important;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.ModalPortfolioButtonNightTheme {
+    /*padding-top, padding-right, padding-bottom, padding-left*/
+    padding: 8px 12px 8px 12px !important;
+    background-color: #37474f !important;
+    color: #FFF !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    border: 1px solid #282c34 !important;
+}
+
+.ModalPortfolioButtonNightTheme:hover {
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    border: 1px solid #FFF !important;
+
+}
+
+.ModalPortfolioHeader {
+    background-color: #546e7a;
+    text-align: center !important;
+}
+
+.ModalPortfolioHeaderNightTheme {
+    background-color: #263238;
+}
+
+
+.TextPortfolioDescription {
+    color: #263238;
+     /*padding-top, padding-right, padding-bottom, padding-left*/
+     /*padding: 8px 25px 8px 20px !important;
+     margin:15px !important;*/
+    padding:25px !important;  
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    font-size: calc(0.6em + 0.7vw) !important;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+}
+
+.TextPortfolioDescriptionNightTheme {
+    color: #cfd8dc !important;
+     /*padding-top, padding-right, padding-bottom, padding-left*/   
+    padding:25px !important;  
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    font-size: calc(0.6em + 0.7vw) !important;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+}
+
+.Divider {
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+}

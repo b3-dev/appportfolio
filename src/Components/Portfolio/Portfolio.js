@@ -13,24 +13,22 @@ class Portfolio extends Component{
 
         this.state={
             isOpen:false,
-            projectId:0
+            projectId:0,
+            loading:true,
         }
+
         this.handleOpenModal = this.handleOpenModal.bind(this);
+        this.handleCloseModal = this.handleCloseModal.bind(this);
         //this.addProduct = this.addProduct.bind(this);
     }
 
     componentDidMount(){
-        console.log('did mount');
+        setTimeout(
+            () => this.setState({ loading: false }), 
+            2000
+          );
     }
 
-    componentWillMount(){
-        console.log('will mount');
-    }
-
-    componentDidCatch(){
-        console.log('did catch');    
-    }
-    
     handleOpenModal(projectId) {
         console.log('project id before'+projectId)
         console.log('aqui this open'+this.state.isOpen);
@@ -52,13 +50,16 @@ class Portfolio extends Component{
 
     render() {
         const { classes } = this.props;
+        const nightTheme = this.props.nightTheme;
         return (
             <Grid container className={classes.root} justify="center" >
                 
                 <Grid container md={10} justify="center" >
                 {Projects['Projects'].map(project=>
-                    <Grid item  className={classes.itemCenter} style={{padding:10}} onClick={()=>this.handleOpenModal(project.id)}  >
+                    <Grid item key={project.id} className={classes.itemCenter} style={{padding:10}} onClick={()=>this.handleOpenModal(project.id)}  >
+                     
                      <ProjectItem 
+                        loading={this.state.loading}
                         alt={project.title}
                         image={`./images/projects/${project.folder}/${project.image_name}`}
                         title={`${project.title}`} 
@@ -71,6 +72,7 @@ class Portfolio extends Component{
                 
                 {/*modal*/}
                 <ModalPortfolioItemDetails 
+                nightTheme={nightTheme}
                 isOpen={this.state.isOpen}
                 description={this.state.description}
                 projectId={this.state.projectId}

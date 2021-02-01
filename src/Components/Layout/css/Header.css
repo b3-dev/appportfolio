@@ -1,0 +1,115 @@
+.AppBar {
+    /*01579b */
+    transition-duration: 0.5s;
+    background-color: #01579b;
+
+}
+
+.AppBarNightTheme {
+    transition-duration: 0.5s;
+    background-color: #282c34;
+
+
+}
+
+.PaperDropdown {
+    background-color: #61dafb !important;
+    border: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.MenuItem {
+    transition-duration: 0.2s;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #61dafb;
+    cursor: pointer;
+    padding: 4px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    letter-spacing: 1.1pt  
+}
+
+.MenuItem:hover {
+    transition-duration: 0.2s;
+    background: rgba(250, 249, 249, 0.5);
+}
+
+.MenuItemSm {
+    transition-duration: 0.2s;  
+    color: #01579b;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    padding: 1vh; 
+    letter-spacing: 1.4pt  
+}
+
+.MenuItemSm:hover {
+    transition-duration: 0.2s;
+}
+
+.ActiveMdItem {
+    transition-duration: 0.2s;
+    background-color: #FFF;
+    color: #61dafb;
+}
+
+.ActiveMdItemNightTheme {
+    transition-duration: 0.2s;
+    color: #282c34 !important;
+    background-color: #FFF;
+}
+
+.ActiveSmItem {
+
+    transition-duration: 0.2s;
+    color: #FFF;
+    font-weight: bold;
+    border-bottom: 1px solid #FFF;
+
+}
+
+.ActiveSmItemNightTheme {
+    transition-duration: 0.2s;
+    color: #282c34 !important;
+    font-weight: bold;
+
+    border-bottom: 1px solid #282c34;
+}
+
+
+ 
+
+  /*.MenuItemNightTheme{
+    transition-duration: 0.2s;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #61dafb;   
+    cursor: pointer;
+    padding:1vh;
+  }*/
+
+  .Popper{
+    position:fixed;
+    padding-top:55px; 
+    width:100%;
+    z-index:1000;
+  }
+  .Toolbar{
+    box-shadow: 0 0px 5px #61dafb;
+    z-index:10000,
+  }
+  .Title{
+    color:#61dafb,  
+  }

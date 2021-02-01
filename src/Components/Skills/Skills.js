@@ -17,7 +17,7 @@ class Skills extends Component{
                 {
                     DataSkills['Skills'].map(skill =>
 
-                        <Grid item xs={6} md={3} sm={6} style={{ padding: 10 }}  >
+                        <Grid key={skill.id} item xs={6} md={3} sm={6} style={{ padding: 10 }}  >
                             <Tooltip title={skill.title} aria-label={skill.title} placement="top-end" arrow>
                                 <IconButton aria-label={skill.title}>
                                     <SkillItem

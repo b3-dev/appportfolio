@@ -2,9 +2,9 @@
     "Projects": [
         {
             "id": 1,
-            "title": "Benedetti's Online 2021",
-            "description": "Actualización de Tienda en línea",
-            "first_line_description": "Propuesta de actualización de plataforma de venta en línea de productos Benedetti's desarrollada en Laravel, Bootstrap, Jquery ",
+            "title": "Benedetti's Online Store",
+            "description": "Upgraded version",
+            "first_line_description": "This upgrade version includes the integration with Adyen’s online payment platform, responsive design, and animated pizza builder interface. \n \nThe back-end was developed on Laravel and front-end was designed using HTML5, CSS, Bootstrap, Jquery and other Javascript libraries",
             "second_line_description": " ",
             "folder": "online2021",
             "technical_details": "",
@@ -31,9 +31,9 @@
         },
         {
             "id": 2,
-            "title": "Benedetti's Online ",
-            "description": "Tienda en línea",
-            "first_line_description": "Propuesta de actualización de plataforma de venta en línea de productos Benedetti's desarrollada en Laravel, Bootstrap, Jquery ",
+            "title": "Benedetti's Online Store",
+            "description": "E-commerce website",
+            "first_line_description": "Online Store where customers can buy any Benedetti’s Pizza products. The customer needs to create an account in the web site. After that, a location for order deliver must be indicated. Finally, then customer processed order will register at the point of sales from the  assigned store through API REST. \n\n It was developed using PHP, HTML5, CSS, Jquery, Javascript",
             "second_line_description": " ",
             "folder": "online2016",
             "technical_details": "",
@@ -60,9 +60,9 @@
         },
         {
             "id": 3,
-            "title": "Benedetti's CASA Actualización",
-            "description": "Benedetti's CASA Actualización",
-            "first_line_description": "Plataforma Benedetti's desarrollada con React Js, Material-UI, Ruby on Rails ",
+            "title": "Benedetti's CASA",
+            "description": "Upgraded version",
+            "first_line_description": "This is an upgrade version of Benedetti’s Pizza CASA. It was developed using Ruby on Rails as a back-end and Knock gem as authentication Rails API method.\n\nFront-end side was designed on ReactJs, Material UI, CSS and responsive design principies.",
             "second_line_description": " ",
             "folder": "casaReact",
             "technical_details": "",
@@ -88,10 +88,10 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Benedetti's CASA",
             "description": "Benedetti's CASA",
-            "first_line_description": "Plataforma Benedetti's desarrollada en Laravel, Bootstrap, Jquery ",
+            "first_line_description": "Benedetti's CASA is a platform for tracking partner and customer incidents. This classifies incidents by categorie, zone, etc, through a service ticket and displays certain metrics for decision making. \n\nBack-end was developed using Laravel and Laravel Passport as an authentication API method.\n\nFront-end was designed using HTML5, CSS, Bootstrap, Jquery, and other Javascript libraries.",
             "second_line_description": " ",
             "folder": "casa2020",
             "technical_details": "",
@@ -117,10 +117,10 @@
             ]
         },
         {
-            "id": 4,
-            "title": "Benedetti's Online CRM",
-            "description": "Benedetti's CRM",
-            "first_line_description": "Platforma tipo CRM desarrollada en Angular 7, Laravel, Angular Material",
+            "id": 5,
+            "title": "Benedetti's Online Sales",
+            "description": "Sales, Customers and ",
+            "first_line_description": "This platform records Benedetti's Online Store orders and customer information. Additionally, you can manage Benedetti's Online Store product menus, price changes, discount coupons, and more.\n\nBack-end was developed on Laravel and Laravel Passport as an authentication API method.\n\nFront-end was designed using Angular 7, Angular Materia and CSS.",
             "second_line_description": " ",
             "folder": "onlineCRM",
             "technical_details": "",
@@ -146,10 +146,10 @@
             ]
         },
         {
-            "id": 5,
-            "title": "PDV Jumpingtime",
-            "description": "Jumpingtime Punto de venta y CMS",
-            "first_line_description": "Plataforma punto de venta hecha en CodeItniter, Boostrap, Jquery ",
+            "id": 6,
+            "title": "Jumpingtime",
+            "description": "POS and CMS platforms",
+            "first_line_description": "Tailor-made point of sale for Jumpingtime product completly managed from a dashboard. Also was adapted an attendance tracker module controlled by a USB fingerprint biometric reader. \n\nThis software was developed using CodeIgniter, Java, HTML5, Bootstrap, Jquery, CSS and Javascript.",
             "second_line_description": " ",
             "folder": "jumpingtime",
             "technical_details": "",
@@ -176,10 +176,10 @@
         },
         
         {
-            "id": 6,
+            "id": 7,
             "title": "Crossfitness",
-            "description": "Crossfitness Punto de venta y CRM",
-            "first_line_description": "Plataforma punto de venta hecha en CodeItniter, Boostrap, Jquery ",
+            "description": "POS and CMS platforms",
+            "first_line_description": "Tailor-made platform for Crossfitnes Club training center to create and schedule exercise routines, membership payment information and customer attendance tracking.  Additionally the customer can consult a routine of the day entering from any mobile device by URL. \n\nThis software was developed using CodeIgniter, Java, HTML5, Bootstrap, Jquery, CSS and Javascript.",
             "second_line_description": " ",
             "folder": "crossfitness",
             "technical_details": "",
@@ -205,10 +205,10 @@
             ]
         },
         {
-            "id": 7,
-            "title": "Legarza>GNP",
-            "description": "Crossfitness Punto de venta y CRM",
-            "first_line_description": "Plataforma punto de venta hecha en CodeItniter, Boostrap, Jquery ",
+            "id": 8,
+            "title": "Legarza GNP Seguros",
+            "description": "ERP Software",
+            "first_line_description": "Tailor-made web system for insurance policy management, reminders of payments to be made and payments due per period, advisor commissions receivable and more.\n\nThis software was developed using CodeIgniter, Java, HTML5, Bootstrap, Jquery, CSS and Javascript. ",
             "second_line_description": " ",
             "folder": "legarza",
             "technical_details": "",
@@ -234,10 +234,10 @@
             ]
         },
         {
-            "id": 6,
-            "title": "Benedetti's Facturación Electrónica",
-            "description": "Benedetti's Facturación Electrónica",
-            "first_line_description": "Platforma Web para generar facturas electrónicas de clientes Benedetti's  desarrollada en CodeIgniter, Bootstrap, Jquery",
+            "id": 9,
+            "title": "Benedetti's E-invoice",
+            "description": "E-invoice website",
+            "first_line_description": "On this website any Benedetti's Pizza customer can generate an electronic invoice of his purchase ticket. The invoice is sent by email to the customer's email address and is available for download from the user account.\n\nThis web site was developed using CodeIgniter, Java, HTML5, Bootstrap, Jquery, CSS, and integrations with a Electronic Invoice Stamping service through RESTful APIs",
             "second_line_description": " ",
             "folder": "facturacion",
             "technical_details": "",
@@ -263,10 +263,10 @@
             ]
         },
         {
-            "id": 7,
-            "title": "Benedetti's Facturación Electrónica CRM",
-            "description": "Benedetti's Facturación Electrónica CRM",
-            "first_line_description": "Platforma tipo CRM desarrollada en CodeIgniter, Boostrap, Jquery",
+            "id": 10,
+            "title": "Benedetti's e-invoice Admin",
+            "description": "E-invoice CRM",
+            "first_line_description": "Web system used to manage information about electronic invoices generated from Benedetti`s e-invoice website, customer fiscal data and display of different types of reports.\n\nThis web system was developed using CodeIgniter, Java, HTML5, Bootstrap, Jquery, CSS, and integrations with a Electronic Invoice Stamping service through RESTful APIs",
             "second_line_description": " ",
             "folder": "facturacionCRM",
             "technical_details": "",
@@ -292,10 +292,10 @@
             ]
         },
         {
-            "id": 8,
-            "title": "Archivos compartidos",
-            "description": "Benedetti's Facturación Electrónica CRM",
-            "first_line_description": "Platforma tipo CRM desarrollada en CodeIgniter, Boostrap, Jquery",
+            "id": 11,
+            "title": "Benedetti's shared files",
+            "description": "Web repository of files",
+            "first_line_description": "Web system that functions as a file repository.Through a user account it is possible to store text documents, digital presentations, etc., and share them with other Benedetti's file sharing users.  The individual account has a maximum capacity of 300 MB.\n\n Benedetti´s shared files was developed using PHP, HTML5, CSS, Jquery and Javascript",
             "second_line_description": " ",
             "folder": "ufiles",
             "technical_details": "",

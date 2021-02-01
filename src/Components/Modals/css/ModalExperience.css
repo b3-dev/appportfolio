@@ -1,0 +1,158 @@
+*:focus {
+    outline: none !important;
+}
+
+.Modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:scroll;
+
+    /*with:;
+       2vh,*/
+    border-radius: 20px;
+    -webkit-border-radius: '20px', ;
+    -moz-border-radius: '20px', ;
+    -ms-border-radius: '20px', ;
+    -o-border-radius: '20px', ;
+}
+
+.GridCloseIcon {
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+}
+
+.IconClose {
+    transform: rotate(0deg) scale(1);
+    transition: all 0.3s ease !important;
+    color: #61dafb !important;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+    -ms-transition: all 0.3s ease !important;
+    -o-transition: all 0.3s ease !important;
+    -webkit-transform: rotate(0deg) scale(1);
+    -moz-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    -o-transform: rotate(0deg) scale(1);
+}
+
+.IconClose:hover {
+    transform: rotate(180deg) scale(1.1);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transform: rotate(180deg) scale(1.1);
+    -moz-transform: rotate(180deg) scale(1.1);
+    -ms-transform: rotate(180deg) scale(1.1);
+    -o-transform: rotate(180deg) scale(1.1);
+}
+
+.ModalTitle {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 3vh;
+    letter-spacing: 1.1pt !important;
+}
+
+.ModalHeader {
+    background-color: #546e7a;
+}
+
+.ModalHeaderNightTheme {
+    background-color: #263238;
+}
+
+.Paper {
+    background-color: #FFF;
+    border: 2px solid #546e7a;
+    box-shadow: 20px;
+    padding: 0vh;
+    margin-top: 0vh;
+    border-radius: 8px;
+    width: 500px !important;
+
+}
+
+.PaperNightTheme {
+    background-color: #282c34 !important;
+    color: #FFF;
+    border: 3px solid #FFF;
+    box-shadow: 20px;
+    padding: 0vh;
+    margin-top: 0vh;
+    border-radius: 8px;
+    width: 500px !important;
+
+}
+
+.ModalButton {
+    /*padding-top, padding-right, padding-bottom, padding-left*/
+    padding: 8px 12px 8px 12px !important;
+    background-color: #01579b !important;
+    color: #FFF !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+}
+
+.ModalButton:hover {
+    background-color: #61dafb !important;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.ModalButtonNightTheme {
+
+    /*padding-top, padding-right, padding-bottom, padding-left*/
+    padding: 8px 12px 8px 12px !important;
+    background-color: #37474f !important;
+    color: #FFF !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    border: 1px solid #282c34 !important;
+}
+
+.ModalButtonNightTheme:hover {
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    border: 1px solid #FFF !important;
+
+}
+
+.TextDescription {
+    color: #fff;
+    padding: 2vh;
+    background-color: #000;
+    opacity: .3;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.Divider {
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+}

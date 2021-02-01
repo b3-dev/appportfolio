@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+import Skeleton from '@material-ui/lab/Skeleton';
 
 
 class ProjectItem extends Component{
@@ -22,7 +22,12 @@ class ProjectItem extends Component{
         return (
             <Card className={classes.card}  >
             <CardActionArea>
-              <CardMedia
+            {this.props.loading?(
+             <Skeleton animation="wave" variant="rect" style={{ width: 350, height:236, maxWidth: 350, }} />
+               
+            ):(
+
+                <CardMedia
                 component="img"
                 alt={this.props.alt}
                 image={this.props.image}
@@ -32,6 +37,8 @@ class ProjectItem extends Component{
                 
                 
               />
+            )}
+              
               {
                   /*<CardContent className={classes.CardContent}>
                     <Typography gutterBottom variant="h6" component="h2">
@@ -69,8 +76,8 @@ const styles = {
 
     },
     card: {
-        width: 400,
-        maxWidth: 400,
+        width: 350,
+        maxWidth: 350,
         borderRadius: "2px",
 
         /*border: "none",
