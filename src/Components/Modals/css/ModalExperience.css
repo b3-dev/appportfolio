@@ -73,7 +73,7 @@
     padding: 0vh;
     margin-top: 0vh;
     border-radius: 8px;
-    width: 500px !important;
+    width: 600px !important;
 
 }
 
@@ -85,7 +85,7 @@
     padding: 0vh;
     margin-top: 0vh;
     border-radius: 8px;
-    width: 500px !important;
+    width: 600px !important;
 
 }
 
@@ -141,15 +141,14 @@
 }
 
 .TextDescription {
-    color: #fff;
+
     padding: 2vh;
-    background-color: #000;
-    opacity: .3;
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+    text-align: justify !important; 
+    font-size: calc(0.6em + 0.7vw) !important;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    
 }
 
 .Divider {

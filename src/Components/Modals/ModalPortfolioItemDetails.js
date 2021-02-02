@@ -37,8 +37,7 @@ class ModalPortfolioItemDetails extends Component {
             first_line_description: ProjectItem.first_line_description,
             image: `./images/projects/${ProjectItem.folder}/${ProjectItem['thumbnail'][0].image_name}`
         })
-        console.log('on rendered' + JSON.stringify(ProjectItem))
-        console.log('description' + this.state.description)
+     
     }
 
     onRequestClose() {
@@ -101,15 +100,14 @@ class ModalPortfolioItemDetails extends Component {
                             <Grid item md={6}  >
                                 <Typography component="p" className={`TextPortfolioDescription${classTheme}`} >
                                     {this.state.first_line_description}
-                                   
                                 </Typography>
                             </Grid>
                         </Grid>
 
                         <div style={{ flex: 1, textAlign: "right", padding: '3vh' }} >
                             <Button className={`ModalPortfolioButton${classTheme}`} onClick={this.props.handleCloseModal} >
-                                Ver otro proyecto
-                                 </Button>
+                                See another project
+                            </Button>
                         </div>
                     </Grid>
                 </Slide>

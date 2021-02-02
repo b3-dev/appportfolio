@@ -16,9 +16,8 @@ class Footer extends Component {
 
             <Grid container className={className} alignItems="center"  justify="center">
                 <Typography component="p" className="TagFooter"  >
-                    Designed and develop by <strong>Eduardo Perez ©2021</strong>. All rights reserved 
+                    Designed and developed by <strong>Eduardo Perez ©2021</strong>. All rights reserved 
                 </Typography>
-
             </Grid>
         );
     }

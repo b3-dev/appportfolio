@@ -107,7 +107,9 @@ class App extends Component {
       <Router>
         <CssBaseline />
         <div className="App" className={`App${className}`}>
-          <Header onChangeTheme={this.handleChangeTheme}  {...this.state} />
+          <Element id='header' >
+            <Header onChangeTheme={this.handleChangeTheme}  {...this.state} />
+          </Element>
 
           <Element id='portfolio' >
             <Typography variant="h4" component="h3" className="SecctionTag">
@@ -133,12 +135,10 @@ class App extends Component {
               {"Skills"}
             </Typography>
             <Divider component="hr" variant="fullWidth" className="DividerHr" />
-
             <Grid container justify="center" spacing={0} style={{ padding: "5vh", paddingTop: '0vh' }}>
               <Skills />
             </Grid>
           </Element>
-
 
           <Element id='contact'  >
             <Typography variant="h4" component="h3" className="SecctionTag">

@@ -23,34 +23,18 @@ class ProjectItem extends Component{
             <Card className={classes.card}  >
             <CardActionArea>
             {this.props.loading?(
-             <Skeleton animation="wave" variant="rect" style={{ width: 350, height:236, maxWidth: 350, }} />
+             <Skeleton animation="wave" variant="rect" style={{ width: 360, height:236, maxWidth: 360, }} />
                
             ):(
-
                 <CardMedia
                 component="img"
                 alt={this.props.alt}
                 image={this.props.image}
                 title={ this.props.title }
-
-                className={classes.media}
-                
-                
+                className={classes.media}               
               />
             )}
-              
-              {
-                  /*<CardContent className={classes.CardContent}>
-                    <Typography gutterBottom variant="h6" component="h2">
-                    {this.props.title}
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                    {this.props.description}
-                    </Typography>
-            </CardContent>*/
-            }
             </CardActionArea>
-            
           </Card>
         );
       }
@@ -76,8 +60,8 @@ const styles = {
 
     },
     card: {
-        width: 350,
-        maxWidth: 350,
+        width: 360,
+        maxWidth: 360,
         borderRadius: "2px",
 
         /*border: "none",

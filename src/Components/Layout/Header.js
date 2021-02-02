@@ -22,7 +22,6 @@ import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import Hidden from '@material-ui/core/Hidden';
 
-
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -62,39 +61,45 @@ class Header extends Component {
   render() {
     //const theme = useTheme();
     const Background = './images/site/background.jpg';
-    const Video='./images/site/intro.mp4';
+    const Video='./images/site/introBlue.mp4';
     const toolbarClassName = this.props.nightTheme ? 'AppBarNightTheme' : 'AppBar';
     const menuClassName = this.props.nightTheme ? 'NightTheme' : '';
     const offset=-90;
     const duration=700;
-    /*const porfolioClass = this.props.portfolioSection ? `ActiveMdItem${menuClassName}` : '';
-    const experienceClass = this.props.experienceSection ? `ActiveMdItem${menuClassName}` : '';
-    const skillsClass = this.props.skillsSection ? `ActiveMdItem${menuClassName}` : '';
-    const contactClass = this.props.contactSection ? `ActiveMdItem${menuClassName}` : '';*/
-
+   
     return (
       <header >
-       
-
         <Grid style={{ flexGrow: 1 }} >
           <AppBar position="fixed"  >
             <Toolbar className={toolbarClassName}  >
               <IconButton color="inherit" aria-label="Menu" style={{ color: '#61dafb' }}>
-                <ComputerIcon />
+              <Link
+                          
+                            to="header"
+                            spy={true}
+                            smooth={true}
+                            offset={offset}
+                            duration={duration} 
+                            style={{ padding:'0px',marginTop:'3px' }}
+                           
+                            >
+                <ComputerIcon   style={{ padding:'0px',margin:'0px' }}/>
+
+                </Link>
               </IconButton>
-              <Hidden mdDown >
-                <Typography variant="h6" color="inherit" style={{ color: '#61dafb' }} >
+              <Hidden smDown >
+                <Typography variant="h6" color="inherit" style={{ color: '#61dafb'  }} >
                   Eduardo Pérez Acuña 
                 </Typography  >
               </Hidden>
               <Typography variant="h6" color="inherit" style={{ flexGrow: 1 }}>
               </Typography  >
-              <Hidden lgUp >
+              <Hidden mdUp >
                 <IconButton color="inherit" aria-label="Menu" style={{ color: '#61dafb' }} onClick={() => this.handleToggle()}>
                   <MenuIcon />
                 </IconButton>
               </Hidden>
-              <Hidden mdDown >
+              <Hidden smDown >
                 <Breadcrumbs aria-label="breadcrumb" style={{ color: '#61dafb' }}  >
                   <Link
                     to="portfolio"
@@ -168,16 +173,25 @@ class Header extends Component {
               />
             </Toolbar>
           </AppBar>
-          <Grid container alignItems="center" style={{   width:'100%',height: '50vh'}} justify="center">
-            <video loop autoPlay muted style={{ width:'100%'}}>
-              <source src={Video}  type="video/mp4" />
-            </video>
-          </Grid>
+          <Grid className="ContainerVideo" >
+          <Grid className="VideoBackground" >
+              <video loop autoPlay preload muted playsInline >
+                <source src={Video} type="video/mp4" />
+              </video>
+            </Grid>
+            <Grid class="ContainterTextVideo" >
+              <Grid>
+                <Typography variant="h4" component="p" className="TextVideo" >
+                  <strong>{'<Hi_there>'}</strong>
+                </Typography>
+              </Grid>
 
-          <Grid container alignItems="center" style={{ backgroundImage: `url(${Background})`, height: '50vh', }} justify="center">
-            <Typography variant="h4" component="p" style={{ color: '#FFF', backgroundColor: '#000', opacity: '.2', padding: '5vh', paddingLeft: '9vh', paddingRight: '9vh', borderRadius: '70px' }} >
-              <strong>{'<FullStack/>'}</strong> Developer.
-            </Typography>
+              <Grid className="ContainerSecondTextVideo" >
+                <Typography variant="p" component="p" className="SecondTextVideo"  >
+                  {`My name is Eduardo, i'm a Full-Stack developer and I enjoy transforming great and creative ideas into amazing projects.`}
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
         </Grid>
         {/*MENU DROPDOWN */}
@@ -257,9 +271,7 @@ class Header extends Component {
                             <Typography component="h7" variant="h7" >
                               Contact
                             </Typography>
-
                           </Link>
-
                         </MenuItem>
                       </MenuList>
                     </ClickAwayListener>
@@ -271,7 +283,6 @@ class Header extends Component {
           </Grid>
         </Hidden>
       </header>
-
     );
   }
 

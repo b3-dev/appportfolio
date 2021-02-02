@@ -32,7 +32,6 @@ class Experience extends Component {
     };
 
     handleCloseModal(){
-
         console.log('handle close modal');
         this.setState({ 
             isOpen: false, 
@@ -68,9 +67,7 @@ class Experience extends Component {
                <ModalExperienceItem
                 
                     nightTheme={nightTheme}
-                    isOpen={this.state.isOpen}
-                    description={this.state.description}
-                    experienceId={this.state.experienceId}
+                    {...this.state}
                     handleCloseModal={this.handleCloseModal.bind(this)}
 
                />

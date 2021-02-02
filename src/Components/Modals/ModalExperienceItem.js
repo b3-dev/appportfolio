@@ -13,22 +13,28 @@ import IconButton from '@material-ui/core/IconButton';
 
 /*DATA */
 import Experience from '../../Data/experience.json';
+import { Explicit } from '@material-ui/icons';
 
 class ModalExperienceItem extends Component {
     constructor(props) {
         super(props)
         this.state = {
+            item:'',
             title: '',
-            image: '',
+            resume: [],
             first_line_description: ''
         }
     }
 
     onRendered(experienceId) {
-        let ExperienceItem = Experience['Experience'].find(item => item.id === experienceId)
+        const ExperienceItem = Experience['Experience'].find(item => item.id === experienceId)
+        const ExperienceResume=ExperienceItem['Resume'];
+        console.log('experience..resume',ExperienceResume);
         this.setState({
+            item:ExperienceItem,
             title: ExperienceItem.title,
             first_line_description: ExperienceItem.first_line_description,
+            resume:ExperienceResume,
         })
     }
 
@@ -39,8 +45,10 @@ class ModalExperienceItem extends Component {
     componentDidMount() {
 
         this.setState({
+            item:'',
             title: '',
             first_line_description: '',
+            resume:[],
         })
     }
 
@@ -50,7 +58,6 @@ class ModalExperienceItem extends Component {
 
         const classTheme= this.props.nightTheme?'NightTheme':'';
         
-
         return (
                        
                 <Modal
@@ -83,53 +90,43 @@ class ModalExperienceItem extends Component {
                             <Grid container style={{
 
                                 justifyContent: "center",
-                                padding: '4vh'
+                                padding: '3vh'
                             }}>
                                 <Grid item style={{
                                     display: "flex", flex: 1, flexDirection: "row", alignItems: "center",
-                                    justifyContent: "left", maxWidth: '50vh'
+                                    justifyContent: "left", maxWidth: '550px'
                                 }} >
-                                    <Typography component="p" variant="p" style={{ padding: "1vh", textAlign: "justify" }} >
-                                        <Typography component="h2" variant="h6" style={{ backgroundColor: '#61dafb', paddingLeft: '2vh', paddingRight: '2vh', borderRadius: '40px' }} >
-                                            Back-end Developer
-                                        </Typography>
-
-                                        <br />
-                                        Diseño e implementación de distintas APIs para integración con servicios tanto propios de la empresa como de proveedores externos usando Laravel y Ruby on Rails
-                                        <br />
-                                        <br />
-                                        <br />
-                                        <Typography component="h2" variant="h6" style={{ backgroundColor: '#61dafb', paddingLeft: '2vh', paddingRight: '2vh', borderRadius: '40px' }} >
-                                            Front-end Developer
-                                        </Typography>
-                                        <br />
-                                        Construcción de interfases de usuario usando tecnologías como ReactJs, Angular,Boostrap, Material IU JavaScript
-                                        <br />
-                                        <br />
-                                        Planeación, desarrollo e implementación de distintos proyectos de tipo ERP, POS, e-commerce usando
-                                        usando técnologías y/o frameworks del lado del servidor como Laravel, Codeigniter, Ruby on Rails y del
-                                        lado del cliente
-
-
+                                    
+                                    <Typography component="p" variant="p" className="TextDescription" >
+                                    
+                                    {
+                                       this.state.resume?this.state.resume.map(item=>(
+                                           <Grid>
+                                            <Typography component="h2" variant="h6" style={{  fontSize: 'calc(0.6em + 0.7vw) !important', backgroundColor: '#61dafb', paddingLeft: '3vh', paddingRight: '3vh', borderRadius: '40px' }} >
+                                                {item.title}
+                                             </Typography>
+                                             <Grid style={{marginTop:'4vh', marginBottom:'4vh' }}> 
+                                                 {item.description}
+                                             </Grid>          
+                                           </Grid>
+                                                                                        
+                                             )
+                                        )
+                                        :<Grid style={{marginTop:'4vh', marginBottom:'4vh' }}> 
+                                            {`Ups! there's nothing here...`}
+                                        </Grid>  
+                                    } 
                                     </Typography>
-
-
                                 </Grid>
-
-
                             </Grid>
-
                             <div style={{ flex: 1, textAlign: "right", padding: '3vh' }} >
-
                                 <Button className={`ModalButton${classTheme}`} onClick={this.props.handleCloseModal} >
-                                    Ver otro proyecto
+                                    See another project
                                 </Button>
                             </div>
-
                         </Grid>
                     </Slide>
                 </Modal>
-
         );
     }
 }

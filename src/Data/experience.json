@@ -3,140 +3,100 @@
         {
             "id": 1,
             "title": "Benedetti's Pizza",
-            "description": "Actualización de Tienda en línea",
-            "resume": [
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 1
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 2
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 3
-                }
-            ],
+            "description": "",
+            
             "folder": "experience",
             "technical_details": "",
             "image_name": "benedettis.png",
             "start_date": "",
-            "end_date": ""
+            "end_date": "",
+            "Resume": [
+                {
+                    "id":1,
+                    "title": "Full-Stack developer",
+                    "description": "In charge of the software development department, responsible for the planning, development and implementation of different projects such as ERP, POS, e-commerce among others.\n\nI proposed and implemented the use of server-side frameworks such as Laravel, Codeigniter, Ruby on Rails and client-side technologies such as Angular, ReactJs and responsive design principles using Bootstrap, Material UI, Angular Material, CSS.\n\nI also performed several integrations of external services to Benedetti's Pizza systems through RESTful APIs.",
+                    "sort": 1
+                }
+            ]
             
         }
         ,
         {
             "id": 2,
             "title": "Jumpingtime",
-            "description": "Benedetti's CRM",
-            "resume": [
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 1
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 2
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 3
-                }
-            ],
+            "description": "",
+            
             "folder": "experience",
             "technical_details": "",
             "image_name": "jumpingtime.png",
             "start_date": "",
-            "end_date": ""
+            "end_date": "",
+            "Resume": [
+                {
+                    "id":1,
+                    "title": "Full-Stack developer",
+                    "description": "I was working for a few months as a freelancer on the Jumpingtime project designing and developing a cool, fun and functional point of sale system.",
+                    "sort": 1
+                }
+            ]
         },
         {
             "id": 3,
             "title": "CrossFitness Club ",
             "description": "",
-            "resume": [
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 1
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 2
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 3
-                }
-            ],
+           
             "folder": "experience",
             "technical_details": "",
             "image_name": "crossfitness.png",
             "start_date": "",
-            "end_date": ""
+            "end_date": "",
+            "Resume": [
+                {
+                    "id":1,
+                    "title": "Full-Stack developer",
+                    "description": "Crossfitness Club needed a web-based software that could manage workout routines, membership information and remind their clients of their due dates. \n\nIn addition, they needed their clients to be able to track their workout of the day without depending on the instructor, so working as a freelancer with them arose Crossfitness MA.",
+                    "sort": 1
+                }
+            ]
             
         },
         {
             "id": 4,
             "title": "LEGARZA GNP Seguros",
-            "description": "Benedetti's CASA Actualización",
-            "resume": [
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 1
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 2
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 3
-                }
-            ],
+            "description": "",
+            "folder": "experience",
             "technical_details": "",
             "image_name": "legarza.png",
             "start_date": "",
-            "end_date": ""
+            "end_date": "",
+            "Resume": [
+                {
+                    "id":1,
+                    "title": "Full-Stack developer",
+                    "description": "LEGARZA stored their financial information in spreadsheets and various documents and sometimes it was too complicated to keep updated all data all the time.  \n\nSo, working with them as a freelancer for a few months, a custom web-based software was developed to cover all the company's needs and more.",
+                    "sort": 1
+                }
+            ]
             
         },
         {
             "id": 5,
             "title": "GOBAE Consulting",
-            "description": "Benedetti's CRM",
-            "resume": [
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 1
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 2
-                },
-                {
-                    "title": "ufiles_thumb_1.png",
-                    "description": "",
-                    "sort": 3
-                }
-            ],
+            "description": "",
+           
             "folder": "experience",
             "technical_details": "",
             "image_name": "gobae.png",
             "start_date": "",
-            "end_date": ""
+            "end_date": "",
+            "Resume": [
+                {
+                    "id":1,
+                    "title": "web developer",
+                    "description": "I was working principally as a web developer making updates and creating new functionalities to websites that were already in production.",
+                    "sort": 1
+                }
+            ]
         }
         
     ]
