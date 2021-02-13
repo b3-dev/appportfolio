@@ -29,17 +29,12 @@ class ModalExperienceItem extends Component {
     onRendered(experienceId) {
         const ExperienceItem = Experience['Experience'].find(item => item.id === experienceId)
         const ExperienceResume=ExperienceItem['Resume'];
-        console.log('experience..resume',ExperienceResume);
         this.setState({
             item:ExperienceItem,
             title: ExperienceItem.title,
             first_line_description: ExperienceItem.first_line_description,
             resume:ExperienceResume,
         })
-    }
-
-    onRequestClose() {
-        console.log('request close')
     }
 
     componentDidMount() {

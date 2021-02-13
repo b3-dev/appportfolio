@@ -30,19 +30,16 @@ class Portfolio extends Component{
     }
 
     handleOpenModal(projectId) {
-        console.log('project id before'+projectId)
-        console.log('aqui this open'+this.state.isOpen);
+
         this.setState({ 
             isOpen: true, 
             projectId:projectId
          });
-        console.log('open modal'+this.state.isOpen);
-        console.log('project id modal'+this.state.projectId);
+  
     };
 
     handleCloseModal(){
 
-        console.log('handle close modal');
         this.setState({ 
             isOpen: false, 
          });
@@ -87,7 +84,6 @@ class Portfolio extends Component{
 const styles = {
     root: {
         flexGrow: 1,
-       /* backgroundColor:'#F00'*/
     },
 
     itemCenter: {

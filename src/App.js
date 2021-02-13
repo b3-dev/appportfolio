@@ -37,7 +37,6 @@ class App extends Component {
   }
 
   handlePortfolioElement = () => {
-    console.log('portfolio Element');
     this.setState({
       portfolioElement: true,
       experienceElement: false,
@@ -73,10 +72,8 @@ class App extends Component {
     });
   }
 
-
   componentDidMount() {
     const nighTheme = localStorage.getItem('nightTheme');
-    console.log('local storage' + localStorage.getItem('nightTheme'));
     if (nighTheme === 'true') {
       this.setState({
         nightTheme: true,
@@ -92,7 +89,6 @@ class App extends Component {
   }
 
   handleChangeTheme() {
-    console.log('change theme');
     this.setState({
       nightTheme: !this.state.nightTheme,
       className: !this.state.nightTheme ? 'Nighttheme' : '',

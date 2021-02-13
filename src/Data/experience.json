@@ -14,7 +14,7 @@
                 {
                     "id":1,
                     "title": "Full-Stack developer",
-                    "description": "In charge of the software development department, responsible for the planning, development and implementation of different projects such as ERP, POS, e-commerce among others.\n\nI proposed and implemented the use of server-side frameworks such as Laravel, Codeigniter, Ruby on Rails and client-side technologies such as Angular, ReactJs and responsive design principles using Bootstrap, Material UI, Angular Material, CSS.\n\nI also performed several integrations of external services to Benedetti's Pizza systems through RESTful APIs.",
+                    "description": "In charge of the software development department, responsible for  planning, developing and implementing different projects such as ERP, POS, e-commerce among others.\n\nI proposed and implemented the use of server-side frameworks such as Laravel, Codeigniter, Ruby on Rails and client-side technologies such as Angular, ReactJs and responsive design principles using Bootstrap, Material UI, Angular Material, CSS.\n\nI also created integrations of external services to Benedetti's Pizza systems through RESTful APIs.",
                     "sort": 1
                 }
             ]
@@ -93,7 +93,7 @@
                 {
                     "id":1,
                     "title": "web developer",
-                    "description": "I was working principally as a web developer making updates and creating new functionalities to websites that were already in production.",
+                    "description": "I was working principally as a web developer creating new functionalities to websites that were already in production.",
                     "sort": 1
                 }
             ]

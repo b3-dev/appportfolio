@@ -16,7 +16,6 @@ class ProjectItem extends Component{
     }
     
     render() {
-        console.log('aca props'+this.props.alt);
         const { classes } = this.props;
 
         return (
@@ -38,7 +37,6 @@ class ProjectItem extends Component{
           </Card>
         );
       }
-
 }
 
 const styles = {
@@ -56,21 +54,13 @@ const styles = {
     },
     root: {
         flexGrow: 1,
-
-
     },
     card: {
         width: 360,
         maxWidth: 360,
         borderRadius: "2px",
-
-        /*border: "none",
-        boxShadow: "none",*/
         backgroundColor:'transparent',
         boxShadow: '0 0px 10px #CCC',
-        
-        
-        
    },
     media: {
         transition:"all 0.6s ease",
@@ -81,10 +71,6 @@ const styles = {
           transition:"all 0.4s ease"
         },
         
-    },
-    CardContent:{
-     
-    
     },
     CardActions:{
        display: 'flex',

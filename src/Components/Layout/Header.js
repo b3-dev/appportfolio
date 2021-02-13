@@ -36,13 +36,8 @@ class Header extends Component {
     // this.handleChangeTheme = this.handleChangeTheme.bind(this);
   }
 
-  componentDidMount() {
-    console.log(`header props ${JSON.stringify(this.props)}`)
-  }
-
   handleToggle() {
     /*arrow*/
-    console.log('handle toogle' + !this.state.menuOpen);
     this.setState({ menuOpen: !this.state.menuOpen });
   }
 

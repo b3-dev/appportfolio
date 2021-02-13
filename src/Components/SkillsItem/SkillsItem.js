@@ -7,9 +7,7 @@ class SkillItem extends Component{
     }
     
     render() {
-        console.log('aca props'+this.props.alt);
         const { classes } = this.props;
-
         return (
             <img 
                 src={this.props.image}

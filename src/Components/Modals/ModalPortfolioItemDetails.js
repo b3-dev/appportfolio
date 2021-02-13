@@ -25,9 +25,6 @@ class ModalPortfolioItemDetails extends Component {
         }
     }
 
-    componentDidMount() {
-
-    }
     onRendered(projectId) {
 
         let ProjectItem = Projects['Projects'].find(item => item.id === projectId)
@@ -37,11 +34,6 @@ class ModalPortfolioItemDetails extends Component {
             first_line_description: ProjectItem.first_line_description,
             image: `./images/projects/${ProjectItem.folder}/${ProjectItem['thumbnail'][0].image_name}`
         })
-     
-    }
-
-    onRequestClose() {
-        console.log('request close')
     }
 
     render() {
@@ -63,9 +55,7 @@ class ModalPortfolioItemDetails extends Component {
                     timeout: 20,
                 }}
             >
-
                 <Slide direction="down" in={this.props.isOpen} mountOnEnter unmountOnExit>
-
                     <Grid className={`PaperPortfolio${classTheme}`}>
                         <Grid containter className={`ModalPortfolioHeader${classTheme}`} >
 

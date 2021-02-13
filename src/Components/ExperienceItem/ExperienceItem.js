@@ -7,7 +7,6 @@ class ExperienceItem extends Component{
     }
     
     render() {
-        console.log('props experience..'+this.props.alt);
         const { classes } = this.props;
 
         return (

@@ -11,8 +11,8 @@ class Skills extends Component{
         super(props);
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <Grid container style={{ flexGrow: 1 }} justify="center" >
                 {
                     DataSkills['Skills'].map(skill =>
@@ -23,7 +23,7 @@ class Skills extends Component{
                                     <SkillItem
                                         alt={skill.title}
                                         image={`./images/${skill.folder}/${skill.image_name}`}
-                        
+
                                     />
                                 </IconButton>
                             </Tooltip>

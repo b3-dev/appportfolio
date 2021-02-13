@@ -21,18 +21,15 @@ class Experience extends Component {
     }
 
     handleOpenModal(experienceId) {
-        console.log('project id before'+experienceId)
-        console.log('aqui this open'+this.state.isOpen);
+
         this.setState({ 
             isOpen: true, 
             experienceId:experienceId
          });
-        console.log('open modal'+this.state.isOpen);
-        console.log('project id modal'+this.state.experienceId);
+    
     };
 
     handleCloseModal(){
-        console.log('handle close modal');
         this.setState({ 
             isOpen: false, 
          });
